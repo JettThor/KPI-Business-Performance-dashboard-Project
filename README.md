@@ -27,6 +27,35 @@ The companies main database structure as seen below consists of four tables: tab
 
 [Entity Relationship Diagram here]
 
+
+
+
+
+
+
+
+
+
+
+
+
+(start at the top then work my way down the github page)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Executive Summary
 
 ### Overview of Findings
@@ -36,13 +65,119 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 
+## Key Business Questions Addressed
+
+This project delivers actionable insights by answering critical performance and operational questions:
+
+1. **Total Revenue:** Quantifying overall financial performance.
+2. **Monthly Sales Trends:** Identifying seasonal patterns and MoM (Month-over-Month) growth trajectories.
+3. **Product Performance:** Pinpointing top-tier revenue-generating products.
+4. **Category Analysis:** Evaluating performance metrics across different product segments.
+5. **Geographic Distribution:** Mapping sales volume and demand by region.
+6. **Payment Analytics:** Identifying preferred customer payment methods to optimize checkout experiences.
+7. **Average Order Value (AOV):** Assessing purchasing power and basket size.
+8. **Strategic Recommendations:** Identifying key product areas requiring executive focus and strategic decision-making.
 
 
 
-## 📊 Business Questions Addressed
-1. What are the primary drivers of revenue growth month-over-month?
-2. Which product categories and regional markets are underperforming against targets?
-3. What actionable insights can be derived to optimize sales performance?
+
+# Insights Deep Dive
+(for the insights deep dive, use each category part to answer/show each part)
+* Main insight 1: Executive KPI Cards: Q1 (Total Revenue) & Q7 (Average Order Value) 
+* Main insight 2: Revenue Trend: Q2 (Monthly Sales Trends / Growth %) 
+* Main insight 3: Product & Category Analysis: Q3 (Top Products), Q4 (Best Categories), & Q8 (Management Focus) 
+* Main insight 4: Regional Analysis: Q5 (Top Regions) & Q6 (Payment/Market Preferences)
+
+
+### Category 1:]
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
+
+
+### Category 2:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 2]
+
+
+### Category 3:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 3]
+
+
+### Category 4:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 4]
+
+
+
+# Recommendations:
+
+Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+  
+
+
+# Assumptions and Caveats:
+
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+  
+* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+  
+* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,15 +188,9 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 * **Data Visualization:** Tableau — designed an interactive executive dashboard with synchronized filtering and dynamic KPIs.
 
 
-
 ## 📂 Repository Structure
 * `/data`: Information about the Kaggle dataset used (or data dictionaries).
 * `/sql_scripts`: SQL queries used for data cleaning, aggregation, and view creation.
 * `/dashboard`: Link to the interactive Tableau Public dashboard (or workbook files).
 * `README.md`: Project documentation.
 
-
-
-## 💡 Key Insights & Recommendations
-* *Insight 1:* (Example: Identified a 15% dip in Q3 sales specifically within the secondary market category due to supply chain delays.)
-* *Recommendation:* (Example: Advised inventory restructuring based on seasonal demand trends shifted from historical SQL analysis.)
