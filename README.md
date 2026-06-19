@@ -20,12 +20,8 @@ Targed SQL queries regarding various business questions can be found [here](YOUR
 # Data Structure & Initial Checks
 
 The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
 
-[Entity Relationship Diagram here]
+<img width="1376" height="768" alt="Image" src="https://github.com/user-attachments/assets/05180fec-8980-4982-9772-11b782f0aa04" />
 
 
 
@@ -65,6 +61,13 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 
+
+
+
+
+
+
+
 ## Key Business Questions Addressed
 
 This project delivers actionable insights by answering critical performance and operational questions:
@@ -81,12 +84,20 @@ This project delivers actionable insights by answering critical performance and 
 
 
 
+
+
+
+
+
+
+
 # Insights Deep Dive
 (for the insights deep dive, use each category part to answer/show each part)
 * Main insight 1: Executive KPI Cards: Q1 (Total Revenue) & Q7 (Average Order Value) 
 * Main insight 2: Revenue Trend: Q2 (Monthly Sales Trends / Growth %) 
 * Main insight 3: Product & Category Analysis: Q3 (Top Products), Q4 (Best Categories), & Q8 (Management Focus) 
 * Main insight 4: Regional Analysis: Q5 (Top Regions) & Q6 (Payment/Market Preferences)
+
 
 
 ### Category 1:]
@@ -156,6 +167,17 @@ Based on the insights and findings above, we would recommend the [stakeholder te
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Assumptions and Caveats:
