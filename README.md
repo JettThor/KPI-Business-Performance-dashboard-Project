@@ -13,9 +13,7 @@ Insights and recommendations are provided across the following key areas:
 
 An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/jett.thor/viz/KPIBusinessPerformanceDashboard/Dashboard2)
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](YOUR_SQL_FOLDER_OR_SCRIPT_LINK_HERE).
-
-Targed SQL queries regarding various business questions can be found [here](YOUR_SQL_KPI_LINK_HERE).
+The complete SQL script containing the queries used for data aggregation, view creations, and answering key business performance metrics can be found [here](https://github.com/JettThor/KPI-Business-Performance-dashboard-Project/blob/main/SQL/queries.sql).
 
 # Data Structure & Initial Checks
 
