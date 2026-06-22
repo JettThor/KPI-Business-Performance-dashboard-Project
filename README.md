@@ -11,7 +11,7 @@ Insights and recommendations are provided across the following key areas:
 * **Operational & Promotional Efficiency:** Analysis of how order priority, shipping costs, and warehouse fulfillment locations impact customer delivery and order management.
 * **Customer Purchase Behavior:** Assessment of payment method distributions, transaction volumes across distinct sales channels, and the financial impact of applied discounts.
 
-An interactive Tableau dashboard used to report and explore sales trends can be found [here](YOUR_TABLEAU_PUBLIC_LINK_HERE).
+An interactive Tableau dashboard used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/jett.thor/viz/KPIBusinessPerformanceDashboard/Dashboard2?publish=yes).
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](YOUR_SQL_FOLDER_OR_SCRIPT_LINK_HERE).
 
