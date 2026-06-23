@@ -28,36 +28,14 @@ The companies main database structure as seen below consists of four tables: tab
 
 
 
-
-
-
-
-
-(start at the top then work my way down the github page)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Executive Summary
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+Between 2020 and 2025, online sales demonstrated highly consistent performance with monthly revenues steadily stabilizing between $600K and $700K; however, a severe, anomalous revenue drop in October 2025 requires immediate operational investigation. On a product level, demand is exceptionally balanced globally, led tightly by utility items like USB Cables and Backpacks hovering around 100K units each. Furthermore, regional transaction habits reveal distinct geographic preferences, with European nations favoring Bank Transfers or Credit Cards, while markets like the United States and Australia strictly drive volume through PayPal.
 
+<img width="1949" height="1260" alt="{97E391FB-07F6-4F08-961C-850E5A102DC9}" src="https://github.com/user-attachments/assets/3a76beed-66ae-40c4-987b-9d09247b5840" />
 
 
 
