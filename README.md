@@ -66,56 +66,59 @@ This project delivers actionable insights by answering critical performance and 
 
 
 
-
 # Insights Deep Dive
 (for the insights deep dive, use each category part to answer/show each part)
-* Main insight 1: Executive KPI Cards: Q1 (Total Revenue) & Q7 (Average Order Value) 
 * Main insight 2: Revenue Trend: Q2 (Monthly Sales Trends / Growth %) 
 * Main insight 3: Product & Category Analysis: Q3 (Top Products), Q4 (Best Categories), & Q8 (Management Focus) 
 * Main insight 4: Regional Analysis: Q5 (Top Regions) & Q6 (Payment/Market Preferences)
+* Main insight 5: Logistics & Operational Efficiency
 
 
+### Executive KPI Cards
 
-### Category 1:]
+| Average Order Value | Total Net Revenue | Total Orders |
+| :---: | :---: | :---: |
+| **$897.25** | **$43.51M** | **48,494** |
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+* High-Value Average Order Value: An Average Order Value (AOV) of $897.25 indicates that customer shopping carts strongly lean toward premium products or high-volume wholesale orders rather than small, individual retail purchases.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
+* The platform successfully processed 48,494 total orders over the active transaction period, driving a substantial $43.51M in Total Net Revenue and establishing a healthy performance baseline for the business.
 
 
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
 
 
-### Category 3:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+### Revenue Trend
+
+<img width="2178" height="1177" alt="{68E4062C-E149-4A3E-BE4B-3D356BCEF3D5}" src="https://github.com/user-attachments/assets/4bfa7e96-46db-4c05-9c9d-01e3106ea8d7" />
+
+* **Consistent Performance Baseline:** Between 2020 and early 2025, monthly revenues demonstrated remarkable stability, reliably tracking between $600K and $700K with highly predictable seasonal overlapping.
+* **Severe Revenue Anomaly (October 2025):** The visualization exposes a critical, dramatic revenue drop in October 2025 where sales plummet down to nearly $80K. This cliff-dive represents an unprecedented outlier that demands an immediate data integrity audit or operational investigation to isolate the cause (such as systematic tracking failure, major checkout outages, or supply chain disruptions).
+
+
+
+
+### Product & Category Analysis
 
 [Visualization specific to category 3]
 
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-### Category 4:
+
+
+
+
+
+### Regional Analysis
+
+[Visualization specific to category 4]
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -125,7 +128,32 @@ This project delivers actionable insights by answering critical performance and 
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 4]
+
+
+
+
+
+
+### Logistics & Operational Efficiency
+
+[Visualization specific to category 5]
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+
+
+
+
+
+
+
+
 
 
 
