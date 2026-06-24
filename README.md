@@ -131,18 +131,32 @@ This project delivers actionable insights by answering critical performance and 
 
 ### Logistics & Operational Efficiency
 
-[Visualization specific to category 5]
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+<img width="1618" height="860" alt="{BDEC0072-0527-41DF-985C-1EE3ACF20753}" src="https://github.com/user-attachments/assets/f9b5fe7c-1897-45f5-9156-d7bbadce091e" />
 
 
+## 📊 Order Priority Matrix Insights
 
+* **Main Insight 1 (Carrier Cost Uniformity):** The average shipping cost across different shipment providers (**DHL**, **FedEx**, **Royal Mail**, and **UPS**) remains remarkably uniform regardless of order priority. High-priority orders cost roughly the same to ship as low-priority orders (ranging tightly between **4,053** and **4,232** across all categories), indicating that priority tier assignment is not driving a premium surcharge in carrier pricing.
+* **Main Insight 2 (Carrier Price Competitiveness):** **Royal Mail** consistently sits at a higher color density (indicating higher relative average shipping costs per unit) across high and medium priorities compared to peers like DHL and UPS. Meanwhile, **UPS** shows a lower cost footprint for medium-priority orders (**4,053**) but spikes slightly for low-priority shipments (**4,194**), suggesting an opportunity to strategically route orders based on carrier-specific tier pricing.
+
+---
+
+## 🏭 Warehouse Efficiency Insights
+
+* **Main Insight 3 (The Paris Efficiency Paradox):** **Paris** stands out as the most financially efficient warehouse hub by a massive margin. While managing a total volume of **34 distinct orders**, its average total shipping cost is kept exceptionally low (under **250**). This indicates highly optimized local distribution networks, closer delivery radiuses, or heavily subsidized regional transit routes compared to all other European hubs.
+* **Main Insight 4 (Berlin Volume & Cost Surge):** **Berlin** is the most demanding fulfillment center operationally and financially. It handles the highest volume of distinct orders (**37 orders**) and suffers from an incredibly high average total shipping cost approaching nearly **1,000**. This drastic cost spike compared to London, Rome, and Amsterdam (which hover around a stable **700–750** cost line for **36 orders** each) points to potential operational bottlenecks, longer average shipping distances, or unfavorable carrier contracts in the Berlin region.
+
+---
+
+### 📈 Summary of Warehouse Metrics
+
+| Warehouse Location | Distinct Count of Total Orders | Relative Cost Efficiency |
+| :--- | :---: | :--- |
+| **Paris** | 34 | Highly Efficient (Lowest Cost) |
+| **London** | 36 | Balanced / Baseline |
+| **Rome** | 36 | Balanced / Baseline |
+| **Amsterdam** | 36 | Balanced / Baseline |
+| **Berlin** | 37 | High Volume / High Cost (Needs Optimization) |
 
 
 
