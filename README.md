@@ -160,25 +160,16 @@ This project delivers actionable insights by answering critical performance and 
 
 
 
+# Strategic Recommendations
 
+Based on the data insights and findings uncovered across the performance dashboards, the following strategic actions are recommended to the executive stakeholder team: 
 
-
-
-
-
-# Recommendations:
-
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
-
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Investigate the October 2025 Revenue Drop Immediately:** Total monthly revenue plummeted from a consistent baseline of $600K–$700K down to approximately $80K in October 2025. **Prioritize a data engineering and infrastructure audit to isolate whether this cliff-dive was caused by a systematic payment gateway failure, a severe checkout outage, or an incomplete transactional data ingestion pipeline.**
+* **Optimize Berlin Fulfillment Operations to Mitigate Over-Expenditure:** Berlin acts as the highest-volume warehouse hub with 37 distinct orders, yet its average shipping cost approaches a staggering 1,000—nearly four times higher than Paris. **Conduct a localized operational review in the Berlin region to address severe logistical bottlenecks, audit carrier contracts, and re-negotiate high-freight transit rates.**
+* **Replicate the Paris Warehouse Model Across Europe:** The Paris hub achieves an exceptionally low average total shipping cost (under 250) while smoothly fulfilling a healthy volume of 34 distinct orders. **Deconstruct the operational framework of the Paris hub—such as its localized carrier agreements, optimal delivery radiuses, or regional transit routing—and establish it as the blueprint for underperforming European facilities.**
+* **Leverage High Average Order Value (AOV) via Tiered B2B Incentives:** Global transaction data indicates a remarkably high Average Order Value (~$897.25), proving that the platform heavily services high-ticket buyers or bulk commercial accounts. **Transition marketing focus away from low-margin retail customer acquisition and instead implement tiered bulk discounts, volume-based loyalty incentives, and specialized B2B checkout experiences.**
+* **Overhaul Carrier Selection Based on Priority Pricing Imbalances:** The data reveals carrier cost uniformity across the board, meaning high-priority rush shipments cost virtually the same to route as low-priority ones. **Re-negotiate service level agreements (SLAs) with primary providers like Royal Mail—which skews as a higher-cost carrier across high and medium tiers—and dynamically route medium-priority orders to UPS to exploit their lower 4,053 cost footprint.**
+* **Deploy Target Marketing to Capture Untapped Regional Basket Sizes:** While global order frequencies are perfectly synchronized worldwide (~4,000 transactions per country), total net revenue lags in regions like the Netherlands ($3.47M) compared to performance leaders like Belgium ($3.75M). **Launch targeted cross-selling campaigns and minimum-order-value shipping thresholds specifically in lower-yielding countries to uplift localized purchasing power to match global baselines.**
   
 
 
@@ -195,14 +186,12 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 # Assumptions and Caveats:
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Throughout the analysis, multiple technical boundaries and analytical assumptions were made to manage data cleaning, validation, and dashboard constraints:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
-
+* **Synthetic Data Profile Validation:** The near-perfect distribution of product volume (clustered tightly at ~100K units per top item) and flat regional revenue splits indicate a simulated dataset. **Analytical interpretations and operational suggestions are built assuming this data reflects a standardized, steady-state enterprise operation rather than true organic market volatility.**
+* **Tool-Specific Pipeline Segmentation:** To optimize performance, the data pipeline roles were strictly divided across the tech stack. **A previous exploratory movie analysis project was handled exclusively in Excel, while this dashboard's heavy transactional aggregation, data views, and multi-layer filtering logic were executed solely through optimized SQL scripts and dynamic Tableau dashboard setups.**
+* **Core Dataframe and Variable Standardization:** To ensure consistent script documentation and prevent variable collisions during initial coding and exploratory data analysis (EDA), code structures were heavily standardized. **All ambiguous dataset references (such as generalized `DF` nomenclature) were explicitly re-mapped to a dedicated `Market` dataframe variable for structural clarity.**
+* **Exclusion of Temporal Gaps Beyond October 2025:** While the historical baseline tracks consistently from 2020 through early 2025, the data abruptly falls off a cliff in October 2025. **Because it cannot be verified with the current schema whether this is a database ingestion failure or a business-ending event, anomalies past October 2025 were treated as reporting drop-offs and excluded from long-term seasonal forecasting.**
 
 
 
