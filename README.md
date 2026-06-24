@@ -176,14 +176,6 @@ Based on the data insights and findings uncovered across the performance dashboa
 
 
 
-
-
-
-
-
-
-
-
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple technical boundaries and analytical assumptions were made to manage data cleaning, validation, and dashboard constraints:
@@ -192,16 +184,6 @@ Throughout the analysis, multiple technical boundaries and analytical assumption
 * **Tool-Specific Pipeline Segmentation:** To optimize performance, the data pipeline roles were strictly divided across the tech stack. **A previous exploratory movie analysis project was handled exclusively in Excel, while this dashboard's heavy transactional aggregation, data views, and multi-layer filtering logic were executed solely through optimized SQL scripts and dynamic Tableau dashboard setups.**
 * **Core Dataframe and Variable Standardization:** To ensure consistent script documentation and prevent variable collisions during initial coding and exploratory data analysis (EDA), code structures were heavily standardized. **All ambiguous dataset references (such as generalized `DF` nomenclature) were explicitly re-mapped to a dedicated `Market` dataframe variable for structural clarity.**
 * **Exclusion of Temporal Gaps Beyond October 2025:** While the historical baseline tracks consistently from 2020 through early 2025, the data abruptly falls off a cliff in October 2025. **Because it cannot be verified with the current schema whether this is a database ingestion failure or a business-ending event, anomalies past October 2025 were treated as reporting drop-offs and excluded from long-term seasonal forecasting.**
-
-
-
-
-
-
-
-
-
-
 
 
 
