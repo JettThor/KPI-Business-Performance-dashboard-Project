@@ -195,8 +195,7 @@ Throughout the analysis, multiple technical boundaries and analytical assumption
 
 
 ## 📂 Repository Structure
-* `/data`: Information about the Kaggle dataset used (or data dictionaries).
-* `/sql_scripts`: SQL queries used for data cleaning, aggregation, and view creation.
-* `/dashboard`: Link to the interactive Tableau Public dashboard (or workbook files).
-* `README.md`: Project documentation.
+
+* `/SQL` — Houses the production `queries.sql` script containing all transactional data aggregates, view creations, and business performance logic queries.
+* `README.md` — Comprehensive project documentation containing the business background, interactive dashboard links, metrics deep dive, and strategic executive recommendations.
 
