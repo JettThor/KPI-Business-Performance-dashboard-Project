@@ -40,10 +40,6 @@ Between 2020 and 2025, online sales demonstrated highly consistent performance w
 
 
 
-
-
-
-
 ## Key Business Questions Addressed
 
 This project delivers actionable insights by answering critical performance and operational questions:
@@ -56,10 +52,6 @@ This project delivers actionable insights by answering critical performance and 
 6. **Payment Analytics:** Identifying preferred customer payment methods to optimize checkout experiences.
 7. **Average Order Value (AOV):** Assessing purchasing power and basket size.
 8. **Strategic Recommendations:** Identifying key product areas requiring executive focus and strategic decision-making.
-
-
-
-
 
 
 
